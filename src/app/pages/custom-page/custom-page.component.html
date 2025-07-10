@@ -44,13 +44,19 @@
         <tr>
           <td>{{ i + 1 }}</td>
           <td>{{ hero.name }}</td>
-          <td>{{ hero.color }}</td>
-          <span class="text-xs w-44"
-          [class.text-success]="hero.canFly"
-          [class.text-error]="!hero.canFly">
-            <td>{{ hero.canFly | canflyPipe  }}</td>
-          </span>
-
+          <td>
+            <span class="text-xs w-44"
+            [class.text-success]="hero.canFly"
+            [class.text-error]="!hero.canFly">
+              {{ hero.canFly | canflyPipe  }}
+            </span>
+          </td>
+          <td>
+            <span class="text-xs w-44"
+            [style.color]="hero.color | heroTextColor">
+            {{ hero.color | heroColor }}
+            </span>
+          </td>
           <td>{{ hero.creator }}</td>
       </tr>
       }
