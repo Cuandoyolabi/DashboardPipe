@@ -4,10 +4,14 @@ import { heroes } from '../../data/heroes';
 import { canFly } from '../../pipes/canFly.pipe';
 import { heroColor } from '../../pipes/color.pipe';
 import { HeroTextColorPipe } from '../../pipes/hero-text-color.pipe';
+import { TitleCasePipe } from '@angular/common';
+import { HeroCreatorText } from '../../pipes/heroCreator.pipe';
+import { HeroSortByPipe } from '../../pipes/hero-sort-by.pipe';
+import { Hero } from '../../interfaces/hero.interface';
 
 @Component({
   selector: 'app-custom-page',
-  imports: [ToggleCasePipe, canFly, heroColor, HeroTextColorPipe],
+  imports: [ToggleCasePipe, canFly, heroColor, HeroTextColorPipe, TitleCasePipe, HeroCreatorText, HeroSortByPipe],
   templateUrl: './custom-page.component.html',
 })
 export default class CustomPageComponent {
@@ -22,4 +26,5 @@ export default class CustomPageComponent {
 
   heroes = signal(heroes);
 
+  sortBy = signal<keyof Hero | null>(null)
 }

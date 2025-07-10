@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 
 export class canFly implements PipeTransform {
-  transform(value: boolean): any {
+  transform(value: boolean): string {
     return value ? "Puede volar" : "No puede volar";
   }
 }

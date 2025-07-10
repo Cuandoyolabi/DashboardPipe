@@ -6,7 +6,7 @@ import { Color } from '../interfaces/hero.interface';
 })
 
 export class heroColor implements PipeTransform {
-  transform(value: number,): any {
+  transform(value: number,): string {
     return Color[value];
   }
 }
