@@ -1,11 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { ToggleCasePipe } from '../../pipes/toggle-case.pipe';
 import { heroes } from '../../data/heroes';
-
+import { canFly } from '../../pipes/canFly.pipe';
 
 @Component({
   selector: 'app-custom-page',
-  imports: [ToggleCasePipe],
+  imports: [ToggleCasePipe, canFly],
   templateUrl: './custom-page.component.html',
 })
 export default class CustomPageComponent {
