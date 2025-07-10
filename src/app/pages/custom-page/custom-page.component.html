@@ -12,3 +12,33 @@
     <button (click)="changeValue()" class="btn btn-primary my-5">ToggleCase</button>
   </div>
 </div>
+
+
+<div class="divider"></div>
+
+<div class="overflow-x-auto w-full">
+  <table class="table table-xs w-full">
+    <!-- head -->
+    <thead>
+      <tr>
+        <th></th>
+        <th>Nombre</th>
+        <th>Puede volar</th>
+        <th>Color</th>
+        <th>Creador</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- row 1 -->
+      @for (hero of heroes(); track hero.id; let i = $index){
+        <tr>
+          <td>{{ i + 1 }}</td>
+          <td>{{ hero.name }}</td>
+          <td>{{ hero.color }}</td>
+          <td>{{ hero.canFly }}</td>
+          <td>{{ hero.creator }}</td>
+      </tr>
+      }
+    </tbody>
+  </table>
+</div>
