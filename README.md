@@ -1,59 +1,35 @@
-# PipesApp
+# Nombre del Proyecto
+Breve descripción del proyecto
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.3.
+## Capturas
+Imagen o GIF del proyecto funcionando
 
-## Development server
+## Tecnologías 🔎
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-To start a local development server, run:
+## Características 💎
+Característica 1
+Característica 2
+Característica 3
 
-```bash
-ng serve
-```
+## Instalación 🔧
+1-Clonar el proyecto: git clone https://github.com/TUUSUARIO/NOMBRE_DEL_REPO.git
+2-Entra a la carpeta del proyecto: cd NOMBRE_DEL_REPO
+3- Dependencias que usa el proyecto y como instalarlas:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Uso 💡
+Cómo usar tu proyecto, con ejemplos
 
-## Code scaffolding
+## Demo 📌
+Link al demo
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Licencia
+All Rights Reserved.
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Contacto 🧭​
+💻 **Mi perfil de Linkedin:** [Linkedin](https://www.linkedin.com/in/adam-samuel-inzunza-ramirez/)  
+🌐 **Mira mi portafolio!** [Portafolio](https://cuandoyolabi.github.io/PortafolioFrontend/)  
+📩 **Email: [adaminzunza3@gmail.com](mailto:adaminzunza3@gmail.com)** ​  
+📱 **Telefono: 3320664573**
